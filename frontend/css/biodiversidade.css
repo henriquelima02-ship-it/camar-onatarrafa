@@ -1,0 +1,111 @@
+.habitat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 22px 0;
+}
+
+.habitat-card,
+.species-card {
+  padding: 20px;
+  border: 1px solid rgba(29, 75, 67, .12);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, .92);
+}
+
+.habitat-card h3,
+.species-card h3 {
+  margin-bottom: 8px;
+}
+
+.habitat-card p,
+.species-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.species-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin: 20px 0;
+}
+
+.species-meta {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.conservation-tag {
+  display: inline-flex;
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: .7rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: rgba(213, 168, 60, .18);
+  color: #71561a;
+}
+
+.conservation-tag.danger {
+  background: rgba(217, 112, 74, .15);
+  color: #9b3d2c;
+}
+
+.conservation-tag.info {
+  background: var(--nevoa);
+  color: var(--azul);
+}
+
+.bio-table-wrap {
+  overflow-x: auto;
+  margin: 22px 0;
+  border: 1px solid rgba(29, 75, 67, .12);
+  border-radius: 20px;
+  background: #fff;
+}
+
+.bio-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+}
+
+.bio-table th,
+.bio-table td {
+  padding: 13px 14px;
+  border-bottom: 1px solid rgba(29, 75, 67, .1);
+  text-align: left;
+  vertical-align: top;
+}
+
+.bio-table th {
+  background: var(--nevoa);
+  color: var(--verde);
+  font-size: .82rem;
+}
+
+.bio-table td {
+  font-size: .88rem;
+}
+
+.bio-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.verification-list li {
+  margin-bottom: 9px;
+}
+
+.scientific-name {
+  font-style: italic;
+}
+
+@media (max-width: 720px) {
+  .habitat-grid,
+  .species-grid {
+    grid-template-columns: 1fr;
+  }
+}
