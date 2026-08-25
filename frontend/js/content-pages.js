@@ -5,6 +5,30 @@
 
   const seed = [
     {
+      id: 'local_piacaguera',
+      title: 'Piaçaguera',
+      destination: 'guia',
+      category: 'local',
+      authorGroup: 'Guia Turístico — conteúdo revisado',
+      summary: 'Comunidade pesqueira de Paranaguá, em frente à Ilha da Cotinga, com forte relação com a pesca artesanal, a cultura caiçara e o turismo de base comunitária.',
+      bodyText: 'Conheça a comunidade, o trapiche, a escola do campo, a igreja e o sambaqui, além das trilhas e conexões com outras comunidades caiçaras.',
+      keywords: ['Piaçaguera', 'comunidade caiçara', 'turismo'],
+      status: 'published',
+      url: './locais/piacaguera.html'
+    },
+    {
+      id: 'local_amparo',
+      title: 'Amparo',
+      destination: 'guia',
+      category: 'local',
+      authorGroup: 'Guia Turístico — conteúdo revisado',
+      summary: 'Comunidade tradicional de Paranaguá, conhecida como Ilha do Amparo, marcada pela pesca artesanal, festas, educação do campo e vida comunitária.',
+      bodyText: 'Conheça o trapiche, as escolas, a cozinha comunitária, as festas, a igreja sobre sambaqui, o Rio das Ostras e os caminhos usados pelos moradores.',
+      keywords: ['Amparo', 'pesca artesanal', 'comunidade'],
+      status: 'published',
+      url: './locais/amparo.html'
+    },
+    {
       id: 'historia_piacaguera',
       title: 'História de Piaçaguera',
       destination: 'guia',
@@ -15,6 +39,30 @@
       keywords: ['história', 'território', 'memória'],
       status: 'published',
       url: './conteudos/historia-piacaguera.html'
+    },
+    {
+      id: 'fauna_flora_piacaguera',
+      title: 'Fauna e flora de Piaçaguera',
+      destination: 'guia',
+      category: 'fauna',
+      authorGroup: 'Conteúdo de biodiversidade revisado',
+      summary: 'Manguezais, Mata Atlântica, fauna marinha e terrestre, espécies ameaçadas e espécies exóticas registradas no Complexo Estuarino de Paranaguá.',
+      bodyText: 'O conteúdo diferencia registros locais, ocorrências regionais e espécies que ainda precisam de confirmação em pesquisa de campo.',
+      keywords: ['fauna', 'flora', 'biodiversidade'],
+      status: 'published',
+      url: './conteudos/fauna-flora-piacaguera.html'
+    },
+    {
+      id: 'fauna_flora_piacaguera_flora',
+      title: 'Fauna e flora de Piaçaguera',
+      destination: 'guia',
+      category: 'flora',
+      authorGroup: 'Conteúdo de biodiversidade revisado',
+      summary: 'Manguezais, Mata Atlântica, fauna marinha e terrestre, espécies ameaçadas e espécies exóticas registradas no Complexo Estuarino de Paranaguá.',
+      bodyText: 'O conteúdo diferencia registros locais, ocorrências regionais e espécies que ainda precisam de confirmação em pesquisa de campo.',
+      keywords: ['fauna', 'flora', 'biodiversidade'],
+      status: 'published',
+      url: './conteudos/fauna-flora-piacaguera.html'
     },
     {
       id: 'seed_saberes',
