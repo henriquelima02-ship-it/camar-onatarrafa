@@ -53,6 +53,18 @@
       url: './conteudos/igreja-sambaqui-piacaguera.html'
     },
     {
+      id: 'gastronomia_piacaguera_amparo',
+      title: 'Gastronomia de Piaçaguera e Amparo',
+      destination: 'guia',
+      category: 'gastronomia',
+      authorGroup: 'Gastronomia caiçara — conteúdo revisado',
+      summary: 'Café caiçara, cozinha comunitária, frutos do mar, Festa do Camarão e preparos documentados nas comunidades de Piaçaguera e Amparo.',
+      bodyText: 'A página diferencia pratos confirmados por documentos e registros locais de receitas que ainda precisam ser documentadas diretamente com cozinheiras, pescadores e famílias.',
+      keywords: ['gastronomia', 'café caiçara', 'camarão'],
+      status: 'published',
+      url: './conteudos/gastronomia-piacaguera-amparo.html'
+    },
+    {
       id: 'fauna_flora_piacaguera',
       title: 'Fauna e flora de Piaçaguera',
       destination: 'guia',
