@@ -41,6 +41,18 @@
       url: './conteudos/historia-piacaguera.html'
     },
     {
+      id: 'igreja_sambaqui_piacaguera',
+      title: 'Igreja e sambaqui de Piaçaguera',
+      destination: 'guia',
+      category: 'historia',
+      authorGroup: 'Patrimônio e arqueologia — conteúdo revisado',
+      summary: 'O conjunto formado pela igreja católica e pelo sambaqui de Piaçaguera, com revisão crítica das informações históricas, arqueológicas e ambientais.',
+      bodyText: 'A página confirma o que está documentado, separa pontos ainda em pesquisa e esclarece a confusão com o Sambaqui de Piaçaguera de Cubatão, em São Paulo.',
+      keywords: ['igreja', 'sambaqui', 'patrimônio'],
+      status: 'published',
+      url: './conteudos/igreja-sambaqui-piacaguera.html'
+    },
+    {
       id: 'fauna_flora_piacaguera',
       title: 'Fauna e flora de Piaçaguera',
       destination: 'guia',
